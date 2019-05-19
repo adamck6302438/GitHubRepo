@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Repo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RepoTableViewCell : UITableViewCell
+
+@property (weak, nonatomic)IBOutlet UILabel *repoLabel;
+@property (strong, nonatomic) Repo *repo;
+
+- (void)setRepo:(Repo *)repo;
 
 @end
 

@@ -10,4 +10,17 @@
 
 @implementation Repo
 
+- (instancetype)initWithRepo:(NSString *)repoName
+{
+    self = [super init];
+    if (self) {
+        _repoName = repoName;
+    }
+    return self;
+}
+
++ (instancetype)parseJSONDictionary:(NSDictionary *)json{
+    return [[Repo alloc]initWithRepo: json[@"name"]];
+}
+
 @end

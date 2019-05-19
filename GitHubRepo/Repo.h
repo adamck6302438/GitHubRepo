@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Repo : NSObject
 
+@property NSString *repoName;
+
++ (instancetype) parseJSONDictionary: (NSDictionary *)json;
+- (instancetype) initWithRepo: (NSString *) repoName;
+
 @end
 
 NS_ASSUME_NONNULL_END

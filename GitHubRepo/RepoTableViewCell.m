@@ -8,6 +8,7 @@
 
 #import "RepoTableViewCell.h"
 
+
 @implementation RepoTableViewCell
 
 - (void)awakeFromNib {
@@ -19,6 +20,11 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (void)setRepo:(Repo *)repo{
+    _repo = repo;
+    self.repoLabel.text = repo.repoName;
 }
 
 @end

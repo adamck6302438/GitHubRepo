@@ -15,6 +15,8 @@
 		0D0A5487228DBEB3000AC878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A5486228DBEB3000AC878 /* main.m */; };
 		0D0A5491228DBEB3000AC878 /* GitHubRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A5490228DBEB3000AC878 /* GitHubRepoTests.m */; };
 		0D0A549C228DBEB3000AC878 /* GitHubRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A549B228DBEB3000AC878 /* GitHubRepoUITests.m */; };
+		0D0A54AB228DC355000AC878 /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54AA228DC355000AC878 /* RepoTableViewCell.m */; };
+		0D0A54AE228DC4E6000AC878 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A54AD228DC4E6000AC878 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0D0A5497228DBEB3000AC878 /* GitHubRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0A549B228DBEB3000AC878 /* GitHubRepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubRepoUITests.m; sourceTree = "<group>"; };
 		0D0A549D228DBEB3000AC878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0A54A9228DC355000AC878 /* RepoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		0D0A54AA228DC355000AC878 /* RepoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
+		0D0A54AC228DC4E6000AC878 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		0D0A54AD228DC4E6000AC878 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				0D0A547A228DBEB2000AC878 /* ViewController.h */,
 				0D0A547B228DBEB2000AC878 /* ViewController.m */,
 				0D0A547D228DBEB2000AC878 /* Main.storyboard */,
+				0D0A54A9228DC355000AC878 /* RepoTableViewCell.h */,
+				0D0A54AA228DC355000AC878 /* RepoTableViewCell.m */,
+				0D0A54AC228DC4E6000AC878 /* Repo.h */,
+				0D0A54AD228DC4E6000AC878 /* Repo.m */,
 				0D0A5480228DBEB3000AC878 /* Assets.xcassets */,
 				0D0A5482228DBEB3000AC878 /* LaunchScreen.storyboard */,
 				0D0A5485228DBEB3000AC878 /* Info.plist */,
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0A54AE228DC4E6000AC878 /* Repo.m in Sources */,
 				0D0A547C228DBEB2000AC878 /* ViewController.m in Sources */,
 				0D0A5487228DBEB3000AC878 /* main.m in Sources */,
 				0D0A5479228DBEB2000AC878 /* AppDelegate.m in Sources */,
+				0D0A54AB228DC355000AC878 /* RepoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
